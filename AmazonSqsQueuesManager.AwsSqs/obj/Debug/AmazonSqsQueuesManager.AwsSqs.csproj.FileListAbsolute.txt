@@ -1,0 +1,8 @@
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.AwsSqs\bin\Debug\AmazonSqsQueuesManager.AwsSqs.dll.config
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.AwsSqs\bin\Debug\AmazonSqsQueuesManager.AwsSqs.dll
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.AwsSqs\bin\Debug\AmazonSqsQueuesManager.AwsSqs.pdb
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.AwsSqs\bin\Debug\AWSSDK.dll
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.AwsSqs\bin\Debug\AWSSDK.xml
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.AwsSqs\obj\Debug\AmazonSqsQueuesManager.AwsSqs.csprojResolveAssemblyReference.cache
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.AwsSqs\obj\Debug\AmazonSqsQueuesManager.AwsSqs.dll
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.AwsSqs\obj\Debug\AmazonSqsQueuesManager.AwsSqs.pdb

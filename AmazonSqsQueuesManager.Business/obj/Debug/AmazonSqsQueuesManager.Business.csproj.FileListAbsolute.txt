@@ -1,0 +1,14 @@
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\bin\Debug\AmazonSqsQueuesManager.Business.dll
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\bin\Debug\AmazonSqsQueuesManager.Business.pdb
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\bin\Debug\AmazonSqsQueuesManager.DataAccess.dll
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\bin\Debug\AmazonSqsQueuesManager.Domain.dll
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\bin\Debug\AutoMapper.dll
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\bin\Debug\AutoMapper.Net4.dll
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\bin\Debug\AmazonSqsQueuesManager.DataAccess.pdb
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\bin\Debug\AmazonSqsQueuesManager.Domain.pdb
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\bin\Debug\AutoMapper.pdb
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\bin\Debug\AutoMapper.xml
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\bin\Debug\AutoMapper.Net4.pdb
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\obj\Debug\AmazonSqsQueuesManager.Business.csprojResolveAssemblyReference.cache
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\obj\Debug\AmazonSqsQueuesManager.Business.dll
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Business\obj\Debug\AmazonSqsQueuesManager.Business.pdb

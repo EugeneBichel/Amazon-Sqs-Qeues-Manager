@@ -1,0 +1,10 @@
+D:\NoWork\AmazonSqsQueuesManager\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\bin\Debug\AmazonSqsQueuesManager.Domain.dll
+D:\NoWork\AmazonSqsQueuesManager\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\bin\Debug\AmazonSqsQueuesManager.Domain.pdb
+D:\NoWork\AmazonSqsQueuesManager\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\obj\Debug\AmazonSqsQueuesManager.Domain.dll
+D:\NoWork\AmazonSqsQueuesManager\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\obj\Debug\AmazonSqsQueuesManager.Domain.pdb
+D:\NoWork\AmazonSqsQueuesManager\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\obj\Debug\AmazonSqsQueuesManager.Domain.csprojResolveAssemblyReference.cache
+E:\projects\AmazonSqsQueuesManager\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\bin\Debug\AmazonSqsQueuesManager.Domain.dll
+E:\projects\AmazonSqsQueuesManager\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\bin\Debug\AmazonSqsQueuesManager.Domain.pdb
+E:\projects\AmazonSqsQueuesManager\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\obj\Debug\AmazonSqsQueuesManager.Domain.csprojResolveAssemblyReference.cache
+E:\projects\AmazonSqsQueuesManager\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\obj\Debug\AmazonSqsQueuesManager.Domain.dll
+E:\projects\AmazonSqsQueuesManager\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\obj\Debug\AmazonSqsQueuesManager.Domain.pdb

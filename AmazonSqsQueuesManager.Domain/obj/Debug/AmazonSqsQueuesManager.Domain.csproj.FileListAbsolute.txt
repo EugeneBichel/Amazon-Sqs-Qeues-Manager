@@ -1,0 +1,5 @@
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\bin\Debug\AmazonSqsQueuesManager.Domain.dll
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\bin\Debug\AmazonSqsQueuesManager.Domain.pdb
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\obj\Debug\AmazonSqsQueuesManager.Domain.csprojResolveAssemblyReference.cache
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\obj\Debug\AmazonSqsQueuesManager.Domain.dll
+E:\AmazonSqsQueuesManager\AmazonSqsQueuesManager.Domain\obj\Debug\AmazonSqsQueuesManager.Domain.pdb
