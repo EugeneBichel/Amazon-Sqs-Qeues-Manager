@@ -76,9 +76,8 @@
     <Reference Include="AWSSDK">
       <HintPath>F:\AWS SDK for .NET\bin\Net45\AWSSDK.dll</HintPath>
     </Reference>
-    <Reference Include="AWSSDK, Version=2.3.30.0, Culture=neutral, PublicKeyToken=9f476d3089b52be3, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libs\AWS SDK for .NET\bin\Net45\AWSSDK.dll</HintPath>
+    <Reference Include="AWSSDK">
+      <HintPath>..\..\..\amazon\bin\Net35\AWSSDK.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />

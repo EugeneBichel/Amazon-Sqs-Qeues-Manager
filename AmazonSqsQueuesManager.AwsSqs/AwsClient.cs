@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System;
 using System.Linq;
 using Amazon;
 using Amazon.SQS;
@@ -11,6 +11,7 @@ namespace AmazonSqsQueuesManager.AwsSqs
 		private const int WaitTimeSeconds = 20;
 
 		private static volatile AwsClient _awsClient;
+		private static readonly Object SyncRoot = new Object();
 		private readonly IAmazonSQS _amazonSqs;
 		private readonly string _queueUrl;
 
@@ -31,8 +32,11 @@ namespace AmazonSqsQueuesManager.AwsSqs
 			{
 				if (_awsClient == null)
 				{
-					if (_awsClient == null)
-						_awsClient = new AwsClient();
+					lock (SyncRoot)
+					{
+						if (_awsClient == null)
+							_awsClient = new AwsClient();
+					}
 				}
 
 				return _awsClient;
@@ -44,10 +48,13 @@ namespace AmazonSqsQueuesManager.AwsSqs
 
 		public int Count()
 		{
-			var getQueueAttributes = new GetQueueAttributesRequest(_queueUrl, new List<string> {"ApproximateNumberOfMessages"});
+			var messagesCount = 0;
 
-			var getQueueAttrbutesResponse = _amazonSqs.GetQueueAttributes(getQueueAttributes);
-			return getQueueAttrbutesResponse.ApproximateNumberOfMessages;
+			var receiveMessageRequest = new ReceiveMessageRequest {QueueUrl = _queueUrl, WaitTimeSeconds = WaitTimeSeconds};
+			var receiveMessageResponse = _amazonSqs.ReceiveMessage(receiveMessageRequest);
+
+			messagesCount = receiveMessageResponse.Messages.Count;
+			return messagesCount;
 		}
 
 		public void Enqueue(string message)
@@ -84,7 +91,20 @@ namespace AmazonSqsQueuesManager.AwsSqs
 
 		public void Clear()
 		{
-			_amazonSqs.PurgeQueue(_queueUrl);
+			var receiveMessageRequest = new ReceiveMessageRequest {QueueUrl = _queueUrl, WaitTimeSeconds = WaitTimeSeconds};
+
+			var receiveMessageResponse = _amazonSqs.ReceiveMessage(receiveMessageRequest);
+			foreach (var message in receiveMessageResponse.Messages)
+			{
+				var messageRecieptHandle = message.ReceiptHandle;
+				//Deleting a message
+				var deleteRequest = new DeleteMessageRequest
+				{
+					QueueUrl = _queueUrl,
+					ReceiptHandle = messageRecieptHandle
+				};
+				_amazonSqs.DeleteMessage(deleteRequest);
+			}
 		}
 	}
 }

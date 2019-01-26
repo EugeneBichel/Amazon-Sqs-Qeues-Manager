@@ -3,7 +3,8 @@
     (function() {
         ko.observableArray.fn.setAtTop = function(value) {
             this.valueWillMutate();
-            this().unshift(value);
+            this().push(value);
+            this().reverse();
             this.valueHasMutated();
         };
     })();

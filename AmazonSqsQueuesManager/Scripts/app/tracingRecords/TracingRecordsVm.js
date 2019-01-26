@@ -7,8 +7,8 @@
         self.historyItems = ko.observableArray(items);
 
         self.addItem = function (item) {
-            //var newItem = ko.observable(item);
-            self.historyItems.setAtTop(item);
+            var newItem = ko.observable(item);
+            self.historyItems.setAtTop(newItem);
         };
 
         self.addItems = function (items) {
